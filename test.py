@@ -43,7 +43,12 @@ def biggest_dif(list_of_locations):
     # Temperatures are already in metric (Celsius)
     print(f"{maximum} and {minimum} have the biggest difference of {difference} Celsius")
 
+
+# adding the weather report function for call inside test to assist with running in terminal
+def weather_report(city, filename):
+    ow.weather_report(city, filename)
+
 # Testing the Biggest Difference and Weather Report in csv function
 # locations = ["Ireland", "Ukraine", "Nigeria"]
 # biggest_dif(locations)
-# ow.weather_report("Ukraine", "ukraine")
+# weather_report("Ukraine", "ukraine")
