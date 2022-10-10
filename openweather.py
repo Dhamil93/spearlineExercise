@@ -61,3 +61,4 @@ class OpenWeather:
             writer.writerow(list_header)
             writer.writerows(list)
             file.close()
+            print(f"Your weather report is available in {filename}")

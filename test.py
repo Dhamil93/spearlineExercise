@@ -13,6 +13,7 @@ except openweather.OpenWeatherException:
     print("You must set the environmental variable OPENWEATHER_API_KEY")
     sys.exit(1)
 
+
 # data = ow.current_weather_for_city("Skibbereen, ie")
 
 # location = data["name"]
@@ -42,7 +43,7 @@ def biggest_dif(list_of_locations):
     # Temperatures are already in metric (Celsius)
     print(f"{maximum} and {minimum} have the biggest difference of {difference} Celsius")
 
-
-# Testing the Biggest Difference function
+# Testing the Biggest Difference and Weather Report in csv function
 # locations = ["Ireland", "Ukraine", "Nigeria"]
 # biggest_dif(locations)
+# ow.weather_report("Ukraine", "ukraine")
