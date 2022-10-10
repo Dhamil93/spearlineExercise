@@ -5,8 +5,10 @@ import csv
 
 BASE_URL = "https://api.openweathermap.org/data/2.5"
 
+
 class OpenWeatherException(Exception):
     pass
+
 
 class OpenWeather:
     def __init__(self, api_key):
@@ -20,7 +22,6 @@ class OpenWeather:
             raise OpenWeatherException("API key not set")
 
         self.api_key = api_key
-
 
     def current_weather_for_city(self, city):
         """Get current weather for a city
