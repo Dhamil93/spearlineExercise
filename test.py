@@ -44,5 +44,5 @@ def biggest_dif(list_of_locations):
 
 
 # Testing the Biggest Difference function
-locations = ["Ireland", "Russia", "Nigeria"]
-biggest_dif(locations)
+# locations = ["Ireland", "Ukraine", "Nigeria"]
+# biggest_dif(locations)
